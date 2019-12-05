@@ -1,0 +1,18 @@
+F:\Development project\netcore\odlink\Mio.Core.Dal\bin\Release\netstandard2.0\Mio.Core.Dal.deps.json
+F:\Development project\netcore\odlink\Mio.Core.Dal\bin\Release\netstandard2.0\Mio.Core.Dal.dll
+F:\Development project\netcore\odlink\Mio.Core.Dal\bin\Release\netstandard2.0\Mio.Core.Dal.pdb
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.csprojAssemblyReference.cache
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.csproj.CoreCompileInputs.cache
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.AssemblyInfoInputs.cache
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.AssemblyInfo.cs
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.dll
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.pdb
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Release\netstandard2.0\Mio.Core.Dal.deps.json
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Release\netstandard2.0\Mio.Core.Dal.dll
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Release\netstandard2.0\Mio.Core.Dal.pdb
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.csprojResolveAssemblyReference.cache
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.csproj.CoreCompileInputs.cache
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.AssemblyInfoInputs.cache
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.AssemblyInfo.cs
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.dll
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Release\netstandard2.0\Mio.Core.Dal.pdb

@@ -1,0 +1,19 @@
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.csproj.CoreCompileInputs.cache
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.AssemblyInfoInputs.cache
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.AssemblyInfo.cs
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\Mio.Dal.Core.deps.json
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\Mio.Dal.Core.dll
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\System.Data.SqlClient.dll
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\System.Data.SqlClient.xml
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\Mio.Dal.Core.pdb
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.dll
+D:\Studydocuments\odlink\NetCore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.pdb
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.csprojAssemblyReference.cache
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.csproj.CoreCompileInputs.cache
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.AssemblyInfoInputs.cache
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.AssemblyInfo.cs
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.dll
+F:\Development project\netcore\odlink\Mio.Core.Dal\obj\Debug\netstandard2.0\Mio.Dal.Core.pdb
+F:\Development project\netcore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\Mio.Dal.Core.deps.json
+F:\Development project\netcore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\Mio.Dal.Core.dll
+F:\Development project\netcore\odlink\Mio.Core.Dal\bin\Debug\netstandard2.0\Mio.Dal.Core.pdb

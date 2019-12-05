@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mio.Core.Dal</name>
+    </assembly>
+    <members>
+        <member name="T:Mio.Core.Dal.DalBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.DalBase._TableName">
+            <summary>
+            表名称
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.DalBase.dbServerId">
+            <summary>
+            服务器逻辑名
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.DalBase.dbOption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.DalBase.dbExecutor">
+            <summary>
+            数据库对象
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.DalBase.DBExecutor">
+            <summary>
+            数据库连接对象
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.DalBase.TableName">
+            <summary>
+            表名
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.DalBase.DbServerId">
+            <summary>
+            数据库逻辑名称
+            </summary>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.GetKernelConnectionStringWithDbName(System.String)">
+            <summary>
+            获取连接数据库字符串
+            </summary>
+            <param name="dbName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.CheckTableCreated(System.String)">
+            <summary>
+            校验数据表是否存在
+            </summary>
+            <param name="tableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.CreateIndex(System.String)">
+            <summary>
+            创建表索引
+            </summary>
+            <param name="indexSqlString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.CreateTable(System.String)">
+            <summary>
+            创建表
+            </summary>
+            <param name="sqlString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.ExecuteMultipleCommand(System.Collections.Generic.List{Dapper.CommandDefinition})">
+            <summary>
+            执行语句
+            </summary>
+            <param name="listCmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.ExecuteTransaction(System.Collections.Generic.List{Dapper.CommandDefinition})">
+            <summary>
+            执行事务
+            </summary>
+            <param name="listCmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:Mio.Core.Dal.DalBase.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.CreateTable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Mio.Core.Dal.Db.CreateTable.GetCreateTableSqlString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.Db.CreateTable.GetCreateIndexSqlString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.DatabaseType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.SqlServer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.MySQL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.PostgreSQL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.SQLite">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.InMemory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.Oracle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.MariaDB">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.MyCat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.Firebird">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.DB2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Db.DatabaseType.Access">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.DbColumnDataType">
+            <summary>
+            数据库列的属性
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbColumnDataType.DatabaseType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbColumnDataType.ColumnTypes">
+            <summary>
+            数据库中对应的类型
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbColumnDataType.CSharpType">
+            <summary>
+            C#中对应的类型
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.DbColumnTypeCollection">
+            <summary>
+            数据库字段类型集合
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbColumnTypeCollection.DbColumnDataTypes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.ConnectionFactory">
+            <summary>
+            数据库连接工厂类
+            </summary>
+        </member>
+        <member name="M:Mio.Core.Dal.Db.ConnectionFactory.CreateConnection(System.String,System.String)">
+            <summary>
+            获取数据库连接
+            </summary>
+            <param name="dbtype">数据库类型</param>
+            <param name="strConn">数据库连接字符串</param>
+            <returns>数据库连接</returns>
+        </member>
+        <member name="M:Mio.Core.Dal.Db.ConnectionFactory.CreateConnection(Mio.Core.Dal.Db.DatabaseType,System.String)">
+            <summary>
+            获取数据库连接
+            </summary>
+            <param name="dbType">数据库类型</param>
+            <param name="strConn">数据库连接字符串</param>
+            <returns>数据库连接</returns>
+        </member>
+        <member name="M:Mio.Core.Dal.Db.ConnectionFactory.GetDataBaseType(System.String)">
+            <summary>
+            转换数据库类型
+            </summary>
+            <param name="dbtype">数据库类型字符串</param>
+            <returns>数据库类型</returns>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.DbTable">
+            <summary>
+            数据库中表属性
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTable.TableName">
+            <summary>
+            表名
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTable.TableComment">
+            <summary>
+            表说明
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTable.Columns">
+            <summary>
+            字段集合
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.DbTableColumn">
+            <summary>
+            数据库中列属性
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.ColName">
+            <summary>
+            字段名
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.IsIdentity">
+            <summary>
+            是否自增
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.IsPrimaryKey">
+            <summary>
+            是否主键
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.ColumnType">
+            <summary>
+            字段数据类型
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.ColumnLength">
+            <summary>
+            字段数据长度
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.IsNullable">
+            <summary>
+            是否允许为空
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.DefaultValue">
+            <summary>
+            默认值
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.Comment">
+            <summary>
+            字段说明
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.DbTableColumn.CSharpType">
+            <summary>
+            C#数据类型
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Db.TreeItem`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.TreeItem`1.Item">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Db.TreeItem`1.Children">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Model.KernelDbInfoModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Model.KernelDbInfoModel.ServerName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Model.KernelDbInfoModel.DbUserName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Model.KernelDbInfoModel.PassWord">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Model.KernelDbInfoModel.RealName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Options.AppConfigurtaionServices">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Options.AppConfigurtaionServices._locker">
+            <summary>
+            加锁防止并发操作
+            </summary>
+        </member>
+        <member name="F:Mio.Core.Dal.Options.AppConfigurtaionServices._instance">
+            <summary>
+            配置实例
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.AppConfigurtaionServices.Config">
+            <summary>
+            配置根节点
+            </summary>
+        </member>
+        <member name="M:Mio.Core.Dal.Options.AppConfigurtaionServices.#ctor">
+            <summary>
+            私有构造函数
+            </summary>
+        </member>
+        <member name="M:Mio.Core.Dal.Options.AppConfigurtaionServices.GetInstance">
+            <summary>
+            获取配置实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Mio.Core.Dal.Options.AppConfigurtaionServices.GetConfig(System.String)">
+            <summary>
+            获取配置信息
+            </summary>
+            <param name="name">配置节点名称</param>
+            <returns></returns>
+        </member>
+        <member name="T:Mio.Core.Dal.Options.CodeGenerateOption">
+            <summary>
+            代码生成选项
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.Author">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.GeneratorTime">
+            <summary>
+            代码生成时间
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.OutputPath">
+            <summary>
+            输出路径
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.ModelsNamespace">
+            <summary>
+            实体命名空间
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.IRepositoryNamespace">
+            <summary>
+            仓储接口命名空间
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.RepositoryNamespace">
+            <summary>
+            仓储命名空间
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.IServicesNamespace">
+            <summary>
+            服务接口命名空间
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.CodeGenerateOption.ServicesNamespace">
+            <summary>
+            服务命名空间
+            </summary>
+        </member>
+        <member name="T:Mio.Core.Dal.Options.DbOption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.DbOption.ConnectionString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="P:Mio.Core.Dal.Options.DbOption.DbType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+    </members>
+</doc>
